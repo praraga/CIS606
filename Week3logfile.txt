@@ -1,0 +1,19 @@
+Excluding Time Period:
+M  4:00pm - 7:50pm
+T  2:00pm - 3:15pm
+W   4:00pm - 7:50pm 
+Th  2:00pm - 3:15pm 
+
+Time Log:
+9/8/2020: 9:10pm - Opened the homework1 to review the lecture videos
+  9/8/2020: 11:10pm - Finished listening to the videos
+ 9/9/20: 6:00pm - Learning the concepts of python
+  9/10/20 : 3:00pm - Revising the topics to code my small parser program in python 
+ 9/10/20 : 8:00pm - Working on small parser
+ 9/11/20: 11:30am - Implementation of small parser
+  9/11/20:  06:00pm - correction of errors within the program
+ 9/12/20: 11:00am - Compiling the code for small parser
+  9/12/20: 01:00pm - Fix the code and run the program 
+  9/12/20: 05:00pm - Expected output was produced 
+ 9/13/20: 11:00am - Worked on Week 3 time log file
+ 9/13/20: 01:00pm - Finished writing the content for week log file}
