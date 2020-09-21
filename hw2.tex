@@ -52,22 +52,30 @@ $F(n) = \Omega (g(n))$ implies $g(n) = $0$ (f(n))$ \\
 Answer: True \\
 
 By definition\\
-$f(n) = \Omega (g(n))$ which implies  $0 <= c.g(n) <= f(n)$ \\
-$g(n) = $0$ (f(n))$ which implies $0 <=  g(n) <= c.f(n)$ \\\\
+$f(n) = \Omega (g(n))$ which implies  $O <= c.g(n) <= f(n)$ \\
+$g(n) = $0$ (f(n))$ which implies $O <=  g(n) <= c.f(n)$ \\\\
 Let us assume that $f(n) = 100n^2$ , $g(n) = n^2$ \\\\
 $f(n) >=  c.g(n)$ \\
 $100.n^2 >=  c.n^2$\\
 Consider the constant c = 50 \\\\
 $100n^2 >= 50n^2$ \\
 $2 >= 1$ \\\\
-$g(n) = $0$ (f(n))$ which is equal to \\\\ 
+$g(n) = $O$ (f(n))$ which is equal to \\\\ 
 $c.f(n) >= g(n)$ \\ 
 $c.100.n^2 >=  n^2$\\
 $50.100.n^2 >= n^2$ \\
 $5000 >= 1$ \\
 
-Based on the above equations $F(n) = \Omega (g(n))$ implies $g(n) = $0$ (f(n))$ is true.
+Based on the above equations $F(n) = \Omega (g(n))$ implies $g(n) = $O$ (f(n))$ is true.
    
+\item
+
+$T(n) = 2T(n/2)+n^4$ \\ \\
+Let us assume that $n=n/2$ \\
+
+$T(n/2) = 2T(n/4)+(n/2)^4$ \\
+$T(n/2) = 2T(n/4)+n^4/16$ \\
+
 \end{enumerate}
 
 \end{document}
