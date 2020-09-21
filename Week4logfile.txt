@@ -1,0 +1,19 @@
+Excluding Time Period:
+M  4:00pm - 7:50pm
+T  2:00pm - 3:15pm
+W   4:00pm - 7:50pm 
+Th  2:00pm - 3:15pm 
+
+Time Log:
+9/15/2020: 9:10pm - Revised the topic of lecture video related to electronic health care system.
+  9/15/2020: 11:10pm - Finished listening to the videos
+ 9/16/20: 6:00pm - Learning the advanced concepts of python
+  9/16/20 : 3:00pm - How should we prevent the loss of data ?
+ 9/16/20 : 8:00pm - Revise the concept of sensor networks to understand in detail
+ 9/17/20: 11:30am - Looked at the concept of message queue example
+  9/17/20:  06:00pm - Learnt the topics related to the architecture of operating systems
+ 9/18/2020: 11:00am - Organization of the distributed systems was revised thoroughly
+  9/19/20: 01:00pm - Different types of Architectural styles was understood well.
+  9/19/20: 05:00pm - Peer to Peer architecture was revised
+ 9/20/20: 11:00am - Topology of the layered networks was revised and understood
+ 9/20/20: 01:00pm - Researched the topics related to Collaborative distributed system topics.
