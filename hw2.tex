@@ -47,10 +47,9 @@
  
 \item
 
+Question 2:\\
 $F(n) = \Omega (g(n))$ implies $g(n) = $0$ (f(n))$ \\
-
 Answer: True \\
-
 By definition\\
 $f(n) = \Omega (g(n))$ which implies  $O <= c.g(n) <= f(n)$ \\
 $g(n) = $0$ (f(n))$ which implies $O <=  g(n) <= c.f(n)$ \\\\
@@ -65,105 +64,59 @@ $c.f(n) >= g(n)$ \\
 $c.100.n^2 >=  n^2$\\
 $50.100.n^2 >= n^2$ \\
 $5000 >= 1$ \\
-
 Based on the above equations $F(n) = \Omega (g(n))$ implies $g(n) = $O$ (f(n))$ is true.
    
 \item
 
+Question 3:\\
 $T(n) = 2T(n/2)+n^4$ \\ \\
-
 $T(n) = 2T(n/2)+n^4$ -- step 1\\ \\
-
 Let us assume that $n=n/2$ \\
-
 $T(n/2) = 2T(n/4)+(n/2)^4$ \\
 $T(n/2) = 2T(n/4)+n^4/16$ -- step 2\\
-
 Substitute 2 in 1 \\
-
 $T(n)=2[2T(n/4)+n^4/2^4] + n^4$ \\
 $T(n) = 2^2 T(n/2^2) + 1/2^3.n^4+n^4$ -- step 3\\
 Substitute  $n=n/2$ in step 2 \\
 $T(n/4) = 2T(n/8)+(n/2)^4. 1/16$ \\
         = $2T(n/8) + n^4/2^8$  -- step 4\\
-
 Substitute 4 in 3 \\
-
 $T(n) = 2^2[2T(n/8) + n^4/2^8]+(n^4/2^3)+n^4$ \\
       =$2^3.T(n/2)^3+n^4/2^6+n^4/2^3+n^4 $\\
       =$2^3(T(n/2^3))+n^4(1/8^2 + 1/8 +1)$ \\
-
 After K substitutions \\ 
-
 =  $2^kT(n/2^k)+ ((2^k)^4).\sum_{k=1}^{k-1}(1/8)$ \\
-
 Let $n = 2^k$ , k=logn \\
-
 $T(n) = nT(1)+n^4,(1/8)^k$ \\
       = $n+n^4.{1^{log n}}/{8^{log n}}$ \\
       = $n+n^4.({0.125)^{log n}})$ \\
-
 As n increases $(0.125)^{log n}$ decreases and it can be ignored.\\ \\
-
 So, $T(n) = \theta(n^4)$
-
 
 \item
 
-4
+Question 4:\\
 $T(n) = 16T(n/4)+n^2 $  \\
 $T(n) = 16T(n/4)+n^2 $ -- step 1 \\
-
 Substitute $n=n/4$ in step 1 \\
-
 $T(n) = 16T(n/16)+(n^2)/(4^2) $ -- step 2 \\
-
 Substitute step 2 in step 1 \\
-
 $T(n) = 16(16.T(n/16)+n^2/16)+n^2$ \\
-
      = $(16^2)T(n/16)+n^2+n^2$ -- step 3 \\
-
 substitue $n=n/4$ in step 2 \\\\
-
 $T(n/16) = 16T(n/64)+n^2/256$ -- step 4 \\
-
 Substiture step 4 in step 3 \\
-
-
 $T(n) = 16^2 (16.T(n/64)+n^2/16^2)+n^2+n^2$ \\
-
       =$16^3T(n/64) + 3n^2$ \\
-
       =$4^6.T(n/4^3)+3n^2$ \\
-
 After k substitutions \\
-
-
     =$4^2k T(n/4^k)+kn^2$\\
     = $n^2.T(1)+n^2 log_4n$\\
-    
-$4^k = n$ 
-$k = log_4n$ 
-
-By ignoring the lower order terms & constants \\
-
+$4^k$ = n \\
+k = $log_4n$\\ 
+By ignoring the lower order terms and constants \\
 $T(n) = \theta (n^2 Log n)$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 \end{enumerate}
-
 \end{document}
 
