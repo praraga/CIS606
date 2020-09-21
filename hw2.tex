@@ -95,9 +95,17 @@ $T(n) = 2^2[2T(n/8) + n^4/2^8]+(n^4/2^3)+n^4$ \\
 
 After K substitutions \\ 
 
-=  $2^kT(n/2^k)+ ((2^k)^4).\sum_{k=1}^{k-1}(1/8)$
+=  $2^kT(n/2^k)+ ((2^k)^4).\sum_{k=1}^{k-1}(1/8)$ \\
 
+Let $n = 2^k$ , k=logn \\
 
+$T(n) = nT(1)+n^4,(1/8)^k$ \\
+      = $n+n^4.(1^log n)/(8^log n)$ \\
+      = $n+n^4.(0.125)^log n$ \\
+
+As n increases $(0.125)^log n$ decreases and it can be ignored.
+
+So, $T(n) = \theta(n^4)$
 
 
 
