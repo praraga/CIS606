@@ -108,6 +108,52 @@ As n increases $(0.125)^{log n}$ decreases and it can be ignored.\\ \\
 So, $T(n) = \theta(n^4)$
 
 
+\item
+
+4
+$T(n) = 16T(n/4)+n^2 $  \\
+$T(n) = 16T(n/4)+n^2 $ -- step 1 \\
+
+Substitute $n=n/4$ in step 1 \\
+
+$T(n) = 16T(n/16)+(n^2)/(4^2) $ -- step 2 \\
+
+Substitute step 2 in step 1 \\
+
+$T(n) = 16(16.T(n/16)+n^2/16)+n^2$ \\
+
+     = $(16^2)T(n/16)+n^2+n^2$ -- step 3 \\
+
+substitue $n=n/4$ in step 2 \\\\
+
+$T(n/16) = 16T(n/64)+n^2/256$ -- step 4 \\
+
+Substiture step 4 in step 3 \\
+
+
+$T(n) = 16^2 (16.T(n/64)+n^2/16^2)+n^2+n^2$ \\
+
+      =$16^3T(n/64) + 3n^2$ \\
+
+      =$4^6.T(n/4^3)+3n^2$ \\
+
+After k substitutions \\
+
+
+    =$4^2k T(n/4^k)+kn^2$\\
+    = $n^2.T(1)+n^2 log_4n$\\
+    
+$4^k = n$ 
+$k = log_4n$ 
+
+By ignoring the lower order terms & constants \\
+
+$T(n) = \theta (n^2 Log n)$
+
+
+
+
+
 
 
 
