@@ -71,10 +71,41 @@ Based on the above equations $F(n) = \Omega (g(n))$ implies $g(n) = $O$ (f(n))$ 
 \item
 
 $T(n) = 2T(n/2)+n^4$ \\ \\
+
+$T(n) = 2T(n/2)+n^4$ -- step 1\\ \\
+
 Let us assume that $n=n/2$ \\
 
 $T(n/2) = 2T(n/4)+(n/2)^4$ \\
-$T(n/2) = 2T(n/4)+n^4/16$ \\
+$T(n/2) = 2T(n/4)+n^4/16$ -- step 2\\
+
+Substitute 2 in 1 \\
+
+$T(n)=2[2T(n/4)+n^4/2^4] + n^4$ \\
+$T(n) = 2^2 T(n/2^2) + 1/2^3.n^4+n^4$ -- step 3\\
+Substitute  $n=n/2$ in step 2 \\
+$T(n/4) = 2T(n/8)+(n/2)^4. 1/16$ \\
+        = $2T(n/8) + n^4/2^8$  -- step 4\\
+
+Substitute 4 in 3 \\
+
+$T(n) = 2^2[2T(n/8) + n^4/2^8]+(n^4/2^3)+n^4$ \\
+      =$2^3.T(n/2)^3+n^4/2^6+n^4/2^3+n^4 $\\
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{enumerate}
 
