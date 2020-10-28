@@ -1,0 +1,23 @@
+Excluding Time Period:
+M  4:00pm - 7:50pm
+T  2:00pm - 3:15pm
+W   4:00pm - 7:50pm 
+Th  2:00pm - 3:15pm 
+
+timelog:
+9/21/2020: 6:00pm-7:15pm -Attend online zoom live lecture.
+           8:00pm-9:15pm-Started researching of binding and variables. 
+
+9/22/2020:10:00am-11:30am-learning about possible binding times.
+
+9/23/2020:8:00am-10:00am- preparing for the quiz
+          6:00pm-7:15pm- Attended online lecture in zoom and attempted quiz 3
+
+9/24/2020-10:00am-12:00pm- Started learning about the loops and thier importance
+
+9/25/2020-2:00pm-3:15pm- researching about the same topic loops.
+          3:45pm-5:00pm- Looked at the concept of scopes with their advantages and disadvantages.
+
+9/26/2020-10:00am-11:30am-Looked at the concept of reference environment and tried to work in python
+
+9/27/2020-10:00am-12:30pm-trying to work on refernce environment in python
