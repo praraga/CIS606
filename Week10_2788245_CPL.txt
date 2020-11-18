@@ -1,0 +1,64 @@
+Excluding Time Period:
+M  4:00pm - 7:50pm
+T  2:00pm - 3:15pm, 4:30 PM to 5:50 PM
+W   4:00pm - 7:50pm 
+Th  2:00pm - 3:15pm, 4:30 PM to 5:50 PM
+
+Time Log:
+9/15/2020: 10:10am - Revised the topic of lecture video.
+ 9/15/2020: 11:10am - done with  listening to the videos
+9/16/20: 6:00am - Learning the possible blinding times
+9/16/2020 : 7:00am - static scope revision.
+9/16/2020 : 9:00pm - Revise the concept of blocks
+9/17/2020: 8:30am - referring about declaration order
+9/17/2020:  09:00pm - Learnt the topics related to the comparative programming languages
+9/18/2020: 11:00pm - referring about the types of blindings
+9/19/2020: 8:00pm - surfing about the named contents.
+9/19/2020: 10:00pm - different types of scopes was revised
+9/20/2020: 8:30am - learning about referencing environments.
+9/20/2020: 1:00pm - Researched the topics related to scopes.
+9/21/2020: 6:00pm-7:15pm -Attend online zoom live lecture.
+9/21/2020: 8:00pm-9:15pm-Started researching of binding and variables. 
+9/22/2020: 10:00am-11:30am-learning about possible binding times.
+9/23/2020:  8:00am-10:00am- preparing for the quiz
+9/23/2020:  6:00pm-7:15pm- Attended online lecture in zoom and attempted quiz 3
+9/24/2020: 10:00am-12:00pm- Started learning about the loops and their importance
+9/25/2020: 2:00pm-3:15pm- researching about the same topic loops.
+9/25/2020: 3:45pm-5:00pm- Looked at the concept of scopes with their advantages and disadvantages.
+9/26/2020: 10:00am-11:30am-Looked at the concept of reference environment and tried to work in python
+9/27/2020: 10:00am-12:30pm-trying to work on reference environment in python
+9/28/2020: 10:00am - 12:00pm - Reviewed the Small parser program.
+9/29/2020: 09:00pm - 10:00pm - Researched on the cloud computing environments.
+9/30/2020: 10:00pm - 11:00pm - Understood the concepts on how cloud computing environments work and which would be suitable for the final project.
+10/1/2020: 11:00am - 12:00pm - Researched the AWS concepts on how exactly we need to take membership.
+10/2/2020: 09:00am - 10:00am - Learned the pricing models that we have AWS.
+10/3/2020: 09:00am - 10:00am - Revisited the lecture videos from previous week for revision.
+10/4/2020: 09:00am - 10:00am - Prepared notes for the course project and started working.
+10/5/2020 07:00 pm to 08:00 Pm - Revised the topics from beginning of the semester for mid term exam.
+10/6/2020 08:00 pm to 11:00 Pm - Working on the lexical grammar and analyzer.
+10/7/2020 11:00 Am to 12:00 Pm - Re-visited the topics for mid term exam.
+10/8/2020 08:00 Am to 12:00 Pm - Started learning the concepts of Amazon Web Services.
+10/9/2020 11:00 Am to 2:00 Pm - Created a Virtual Machine for me to work on the project.
+10/10/2020 4:00 Pm to 07:00 Pm - Re-visited the topics for mid term exam.
+10/11/2020 11:00 Am to 12:00 Pm - Finished writing the log files as part of the coursework.
+10/13/2020: 09:00am - 10:00am - Revised the concepts for mid term exam.
+10/14/2020: 09:00am - 10:00am - Started preparing a draft for the course project.
+10/15/2020 07:00 pm to 08:00 Pm - Revised the topics from beginning of the semester for mid term exam.
+10/16/2020 08:00 pm to 11:00 Pm - Working on SQUID project.
+10/17/2020 11:00 Am to 12:00 Pm - Learning the concepts of SQUID project.
+10/18/2020 08:00 Am to 12:00 Pm - Finished writing the log files as part of the coursework.
+10/19/2020 11:00 Am to 12:00 Pm - Re-visited the topics of lexical analysis.
+10/20/2020: 09:00am - 10:00am - Worked on the concepts of parsing problem.
+10/21/2020: 09:00am - 10:00am - Learnt the topics of Recursive-Descent Parsing technique.
+10/22/2020 07:00 pm to 08:00 Pm - Working on the cloud platform along with the programming language for small parser.
+10/23/2020 08:00 pm to 11:00 Pm - Testing the Small Parser program with the python language.
+10/24/2020: 11:00 Am to 12:00 Pm - Created amazon web services account.
+10/25/2020: 08:00 Am to 12:00 Pm - Working on the log files account.
+10/26/2020: 08:00am-9:15am-Started working for small parser
+10/27/2020: 10:00pm-11:30pm-reading textbook.
+10/28/2020: 8:00pm-10:00pm- working on small parser
+10/29/2020- 10:00pm-12:00am- woking for final project.
+10/30/2020- 12:00pm-2:00pm- researching about the some topics.
+           8:45pm-11:00pm- Looked at the concept of bandwidth with their advantages and disadvantages.
+10/31/2020- 10:00pm-12:30am-Looked at the concept of programming languages.
+11/1/2020- 10:00pm-12:30am-trying to work on reference environment in linux.
